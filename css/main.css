@@ -1,3 +1,7 @@
+.body {
+    padding-top: 70px;
+  }
+ 
 .left-sidebar-img {
     background-image: url("../img/forest.jpg");
     background-color: rgba(209, 211, 189, 0.6);
@@ -26,11 +30,63 @@
 .left-sidebar-phrase {
     margin: 80px 40px 40px 40px;
     font-family: 'Lobster Two', cursive;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     text-align: center;
 }
 
-.top-buttons {
-    padding: 0 50px 0 50 px;
+.navbar-default {
+    background-color: none;
+    border-color: none;
+    padding: 10px 70px 0 70px;
+}
+
+.navbar-default .navbar-nav {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav:hover,
+.navbar-default .navbar-nav:focus {
+    color: #6ca2af;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #6ca2af;
+}
+
+.post {
+    margin: 3px 20px 30px 20px;
+    padding: 55px 70px 80px 70px;
+}
+
+.post > h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.post-header-main-part {
+    color: #837d7d;
+}
+
+.post-text-1 {
+    color: #837d7d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.post-text-2 {
+    color: #837d7d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.post-introduction {
+    font-size: 18px;
+    font-family: 'Lobster Two', cursive;
 }
