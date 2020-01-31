@@ -2,7 +2,11 @@
     padding-top: 70px;
     background-color: #d4dde4;
   }
- 
+
+.left-sidebar {
+    padding: 0;
+}
+
 .left-sidebar-img {
     background-image: url("../img/forest.jpg");
     background-color: rgba(209, 211, 189, 0.6);
@@ -10,6 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0;
 }
 
 .left-sidebar-buttons {
@@ -78,14 +83,23 @@
 }
 
 .post-data {
+    display: inline-block;
     font-weight: 700;
     color: #837d7d;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    margin-bottom: 10px;
 }
 
-.post-data > strong {
+.post-data > strong > i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.post-data-text {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
     cursor: pointer;
 }
 
@@ -93,6 +107,8 @@
     font-size: 24px;
     font-family: 'Kurale', serif;
     font-weight: 500;
+    color: #000000;
+    margin-bottom: 30px;
 }
 
 .post-main-text {
@@ -101,7 +117,7 @@
     font-size: 20px;
 }
 
-.post-img {
+.post-1-img {
     float: right; 
     margin: 2px 0 10px 10px;
     height: 300px;
@@ -110,6 +126,7 @@
 
 .line-height {
     line-height: 1.5;
+    margin-top: 30px;
 }
 
 .link-to-continue {
@@ -119,4 +136,14 @@
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 14px;
+    margin-top: 40px;
+}
+
+.link-to-continue > strong > i {
+    margin-left: 5px;
+}
+
+.post-2-img {
+    margin-bottom: 5px;
+    display: inline-block;
 }
