@@ -1,5 +1,5 @@
-.body {
-    padding-top: 70px;
+body {
+    padding: 0;
     background-color: #d4dde4;
   }
 
@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
+    margin: 0;
 }
 
 .left-sidebar-buttons {
@@ -41,12 +42,18 @@
     text-align: center;
 }
 
+.main {
+    width: auto;
+    padding: 0;
+}
+
 .navbar-default {
+    width: auto;
     display: flex;
     justify-content: space-around;
     background-color: white;
-    border-color: none;
-    padding: 10px 70px 0 70px;
+    border-bottom: 2px solid #d4dde4;
+    padding: 15px 180px 15px 180px;
 }
 
 .navbar-default .navbar-nav {
@@ -70,8 +77,10 @@
 }
 
 .post {
-    margin: 3px 20px 30px 20px;
-    padding: 55px 150px 80px 70px;
+    width: auto;
+    margin: 3px 15px 50px 15px;
+    padding: 55px 70px 80px 70px;
+    background-color: white;
 }
 
 .post > h1 {
